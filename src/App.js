@@ -23,8 +23,9 @@ import Imli from './components/OurIngredients/Ingredient.Imli';
 import Mango from './components/OurIngredients/Ingredient.Mango';
 import Guava from './components/OurIngredients/Ingredient.Guava';
 import CustardApple from './components/OurIngredients/Ingredient.CustardApple';
-import Chanadal from './components/OurIngredients/Ingredient.Chanadal';
-
+//import Chanadal from './components/OurIngredients/Ingredient.Chanadal';
+import Millets from './components/OurIngredients/Ingredient.Millets';
+//import Millets from './components/Millets';
 
 /*All Products*/
 
@@ -68,7 +69,7 @@ function App() {
             <Route path="/our-ingredients/mango" element={<Mango />} />
             <Route path="/our-ingredients/guava" element={<Guava />} />
             <Route path="/our-ingredients/custard-apple" element={<CustardApple />} />
-            <Route path="/our-ingredients/Chanadal" element={<Chanadal/>}/>
+            <Route path="/our-ingredients/Millets" element={<Millets/>}/>
             <Route path="/blogs" element={<BlogsPage />} />
             
             <Route path="/about-us" element={<AboutUsPage />} />
